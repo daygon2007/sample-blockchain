@@ -35,12 +35,7 @@ class Blockchain{
 }
 
 let daygonCoin = new Blockchain();
-daygonCoin.addBlock(new Block(1, "04/02/1989", { data:[
-    {
-        'home_sale': '$250,000',
-        'home_sold': '$247,999'
-    }
-    ]}));
+daygonCoin.addBlock(new Block(1, "04/02/1989", { amount: 7}));
 daygonCoin.addBlock(new Block(2, "05/02/1989", { amount: 14}));
 daygonCoin.addBlock(new Block(3, "06/02/1989", { amount: 28}));
 
