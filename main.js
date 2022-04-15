@@ -35,8 +35,8 @@ class Blockchain{
 }
 
 let daygonCoin = new Blockchain();
-daygonCoin.addBlock(new Block(1, "04/02/1989", { amount: 7}));
-daygonCoin.addBlock(new Block(2, "05/02/1989", { amount: 14}));
-daygonCoin.addBlock(new Block(3, "06/02/1989", { amount: 28}));
+daygonCoin.addBlock(new Block(1, "01/02/1989", { amount: 7}));
+daygonCoin.addBlock(new Block(2, "02/02/1989", { amount: 14}));
+daygonCoin.addBlock(new Block(3, "03/02/1989", { amount: 28}));
 
 console.log(JSON.stringify(daygonCoin, null, 4));
